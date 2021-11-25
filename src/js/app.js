@@ -1,7 +1,7 @@
 import "../scss/app.scss";
 import "uno.css";
 import "regenerator-runtime/runtime";
-import React from "react";
+import { createElement } from "react";
 import ReactDOM from "react-dom";
 import app from "./app.jsx";
 const props = {};
@@ -9,4 +9,4 @@ const children = [];
 const falseBody = document.createElement("false-body");
 falseBody.classList.add("false-body");
 document.body.appendChild(falseBody);
-ReactDOM.render(React.createElement(app, props, children), falseBody);
+ReactDOM.render(createElement(app, props, children), falseBody);
