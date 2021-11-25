@@ -1,26 +1,33 @@
-/* By Athlon Front-End Team */
+false-body {
+  display: contents;
+}
 
-/* Core variables */
-@import 'base/vars';
-
-/* CSS Reset */
-@import 'base/reset';
-
-/* CSS print */
-@import 'base/print';
-
-/* Fonts */
-@import 'base/fonts';
-
-/* Mixins, helpers and functions */
-@import 'base/mixins';
-
-/* Vendor */
-
-/* Components */
-
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Demo Page styles */
-@import 'demo';
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--SIZE--font);
+  background-color: var(--COLOR--background);
+  header.body,
+  footer.body {
+    position: fixed;
+    background-color: var(--COLOR--header-background);
+    width: 100vw;
+    height: var(--SIZE--header);
+    font-size: var(--SIZE--header-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header.body {
+    top: 0;
+  }
+  main.body,
+  section.body {
+    padding-top: var(--SIZE--header);
+    padding-bottom: var(--SIZE--header);
+  }
+  footer.body {
+    bottom: 0;
+  }
+}

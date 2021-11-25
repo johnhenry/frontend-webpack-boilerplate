@@ -1,14 +1,13 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
 
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-***What is the motivation / use case for changing the behavior?**
+**\*What is the motivation / use case for changing the behavior?**
 
 Describe an example use case of this feature.
 

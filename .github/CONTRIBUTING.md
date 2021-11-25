@@ -1,7 +1,6 @@
 ## How to contribute to Athlon Frontend Webpack Boilerplate
 
-Thank you for contributing to this template!
-=========================================
+# Thank you for contributing to this template!
 
 ## Language
 

@@ -1,13 +1,11 @@
 ---
 name: Support Request
 about: Describe an issue using this repository code
-
 ---
 
 **Is your support request related to a problem? Please describe.**
 
 A clear and concise description of what the problem is.
-
 
 **Describe alternatives you've considered**
 
